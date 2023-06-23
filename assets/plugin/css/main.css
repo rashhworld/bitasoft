@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-image: url('https://cdn.pixabay.com/photo/2016/08/31/17/02/blue-1634110_960_720.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; */
+}
+
+label {
+  font-weight: 600;
+}
+
+label[class="error"] {
+  color: #E73635;
+  font-size: 14px;
+}
+
+.errors ul {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  margin-bottom: 0px !important;
+}
+
+.modal ::-webkit-scrollbar {
+  width: 5px;
+}
+
+.modal ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.modal ::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.modal ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 5px;
+}
+
+.form-control.error,
+.form-select.error {
+  border: 1px solid #E73635 !important;
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.loader {
+  z-index: 10000;
+}
+
+.swal2-popup {
+  width: 31.5em !important;
+}
+
+.table-hover tbody tr:hover td {
+  background: blanchedalmond;
+}
+
+@media only screen and (max-width: 600px) {
+  .partnerAuth {
+    width: 100%;
+  }
+}
+
+/* .............. */
+table {
+  width: 100%;
+}
+
+tr {
+  margin-bottom: 20px;
+}
+
+td,
+th {
+  padding: 15px !important;
+  border: 1px solid #ccc !important;
+}
+
+@media all and (max-width:678px) {
+
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+}
+
+/* .............. */
+
+/* .............. */
+.card-1 {
+  background: linear-gradient(45deg, #4099ff, #73b4ff);
+}
+
+.card-2 {
+  background: linear-gradient(45deg, #2ed8b6, #59e0c5);
+}
+
+.card-3 {
+  background: linear-gradient(45deg, #FFB64D, #ffcb80);
+}
+
+.card-4 {
+  background: linear-gradient(45deg, #FF5370, #ff869a);
+}
+
+.card-5 {
+  background: linear-gradient(45deg, #ad1deb, #d66dff);
+}
+
+i {
+  color: #ffc107;
+}
+
+.fa-xmark{
+  font-size: 25px;
+}
+
+#updateCatPos .col,
+#updateMatPos tr {
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+#updateCatPos .col:active,
+#updateMatPos tr:active {
+  cursor: move;
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.artDesc img {
+  margin: 30px 0;
+  width: 100%;
+  height: auto;
+}
+
+.artDesc {
+  text-align: justify;
+  font-size: 18px;
+}
