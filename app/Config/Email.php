@@ -55,7 +55,7 @@ class Email extends BaseConfig
      * @var string
      */
     // Enter your email id from where you send email    no-reply info
-    public $SMTPUser = 'no-reply@bitasoft.in';
+    public $SMTPUser = '';
     
 
     /**
@@ -64,7 +64,7 @@ class Email extends BaseConfig
      * @var string
      */
     // Enter your email's password
-    public $SMTPPass = '388Angel@hostinger';
+    public $SMTPPass = '';
 
     /**
      * SMTP Port
